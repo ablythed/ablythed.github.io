@@ -1,0 +1,23 @@
+<project>
+    <documents></documents>
+    <dmdesigns>
+        <dmdesign active>
+            <dmdesignskill skill="bs5.colors">
+                <dmcolor key="primary" color="#000000"/>
+                <dmcolor key="secondary" color="#6c757d"/>
+                <dmcolor key="info" color="#ffffff"/>
+                <dmcolor key="success" color="#198754"/>
+                <dmcolor key="warning" color="#ffc107"/>
+                <dmcolor key="danger" color="#dc3545"/>
+                <dmcolor key="white" color="white"/>
+                <dmcolor key="light" color="#f8f9fa"/>
+                <dmcolor key="dark" color="#212529"/>
+            </dmdesignskill>
+            <dmdesignskill skill="fonts" text_weight="" text_color="" text_spacing="" text_effect="" text_italic="" text_smallcaps="" text_uppercase="" headings_weight="" headings_color="" headings_spacing="" headings_effect="" headings_italic="" headings_smallcaps="" headings_uppercase="" text_family="Open Sans" headings_family="Josefin Sans"></dmdesignskill>
+            <dmdesignskill skill="headings"></dmdesignskill>
+            <dmdesignskill skill="background" image_for_colors keyword="building" selector=".poster" image advanced="true" color="$primary" filter_opacity="12"></dmdesignskill>
+            <dmdesignskill skill="bootstrap" gradients="" responsive_fonts="" roundness="2" buttonRoundness="0" shadows="0" contrast="1"></dmdesignskill>
+        </dmdesign>
+    </dmdesigns>
+    <dmlocked bs5-colors-primary="false" bs5-colors-secondary="false" bs5-colors-info="false" bs5-colors-success="true" bs5-colors-warning="true" bs5-colors-danger="true" bs5-colors-white="true" bs5-colors-light="true" bs5-colors-dark="true" fonts-text_family="false" fonts-headings_family="false" bs5-colors-button-from_image="false" headings-h1_family="true" bootstrap-buttonRoundness="true" bootstrap-shadows="true" bootstrap-roundness="true" bootstrap-gradients="true" background-image="false" background-color="true"></dmlocked>
+</project>

@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap_theme/bootstrap.css" rel="stylesheet" type="text/css">
+        <!-- Custom styles for this template -->
+        <link rel="stylesheet" href="blocks.css">
+        <link href="style.css" rel="stylesheet">
+        <title>Design of the Week Template 3 - Pinegrow Web Editor</title>
+        <link rel="pg-require" href="projectdb.pgml">
+        <link rel="pg-require" href="_pginfo/fonts.json">
+        <link rel="pg-require" href="pinegrow.json">
+    </head>
+    <body class="text-muted">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light pb-3 pt-3 shadow-none"> 
+                <div class="container"> 
+                    <a class="align-items-end d-inline-flex navbar-brand text-secondary text-uppercase" href="#"> <svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="1.75em" width="1.75em" class="me-2" fill="currentColor">
+                            <path d="M400 400H0V200a201.483 201.483 0 014.063-40.307 198.9 198.9 0 0130.094-71.515 200.583 200.583 0 0187.994-72.461 199 199 0 0137.542-11.654 201.952 201.952 0 0180.614 0 198.9 198.9 0 0171.515 30.093 200.583 200.583 0 0172.461 87.994 199 199 0 0111.654 37.542A201.482 201.482 0 01400 200zM200 50c-82.71 0-150 67.29-150 150s67.29 150 150 150h150V200c0-82.711-67.29-150-150-150z"/>
+                        </svg><span class="fw-bold h5 mb-0">Merto Tower</span></a> 
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown-2" aria-controls="navbarNavDropdown-2" aria-expanded="false" aria-label="Toggle navigation"> 
+                        <span class="navbar-toggler-icon"></span> 
+                    </button>                     
+                    <div class="collapse navbar-collapse " id="navbarNavDropdown-2"> 
+                        <ul class="ms-auto navbar-nav"> 
+                            <li class="nav-item"> 
+                                <a class="active nav-link pb-lg-3 pe-lg-4 ps-lg-4 pt-lg-3" aria-current="page" href="#">Home</a> 
+                            </li>
+                            <li class="nav-item"> 
+                                <a class="nav-link pb-lg-3 pe-lg-4 ps-lg-4 pt-lg-3" href="#">Plants</a> 
+                            </li>
+                            <li class="nav-item"> 
+                                <a class="nav-link pb-lg-3 pe-lg-4 ps-lg-4 pt-lg-3" href="#">Services</a> 
+                            </li>
+                            <li class="nav-item"> 
+                                <a class="nav-link pb-lg-3 pe-lg-4 ps-lg-4 pt-lg-3" href="#">Shop</a> 
+                            </li>
+                            <li class="nav-item"> 
+                                <a class="nav-link pb-lg-3 pe-lg-4 ps-lg-4 pt-lg-3" href="#">Blog</a> 
+                            </li>
+                            <li class="nav-item"> 
+                                <a class="nav-link pb-lg-3 pe-lg-4 ps-lg-4 pt-lg-3" href="#">Contact</a> 
+                            </li>                             
+                        </ul>                         
+                    </div>                     
+                </div>                 
+            </nav>
+        </header>
+        <main>
+            <section class="bg-info hero-block pb-5 position-relative pt-5 text-dark">
+                <div class="container pb-5 pt-5">
+                    <div class="align-items-center gx-lg-5 gy-4 row">
+                        <div class="col-lg-6">
+                            <div class="ratio ratio-1x1">
+                                <div class="bg-secondary p-4 rounded-circle" style="border-bottom-right-radius: 0px !important; border-bottom-left-radius: 0px !important;">
+                                    <div class="h-100 overflow-hidden position-relative poster rounded-circle w-100" style="border-bottom-right-radius: 0px !important;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <h1 class="display-3 fw-bold text-secondary">Healthy Garden, Healthy Homes</h1>
+                            <p class="lead mb-4 pe-sm-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet.</p>
+                            <a href="#" class="btn btn-outline-secondary pb-2 pe-4 ps-4 pt-2" target="_pg_blank">Start Today</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-light pb-5 pt-5 text-center"> 
+                <div class="container pb-5 pt-5"> 
+                    <img src="https://images.unsplash.com/photo-1505273471770-de630b5d5c5d?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDIwfHxza3lsaW5lfGVufDB8fHx8MTYyNjU0OTQ4NQ&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=1200&h=500&fit=crop" class="img-fluid mb-5 w-100"/>
+                    <div class="col-lg-9 me-auto ms-auto">
+                        <h3 class="fw-bold h1 text-dark">Create a Better Home Environment</h3>
+                        <p class="fw-light mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac sagittis neque, vel egestas est.</p>
+                        <a href="#" class="btn btn-secondary pb-2 pe-4 ps-4 pt-2">Read More</a>
+                    </div>                     
+                </div>                 
+            </section>
+            <section class="overflow-hidden pb-5 position-relative"> 
+                <div class="container pb-5"> 
+                    <div class="row"> 
+                        <div class="col-lg-6"> 
+                            <div class="bg-white p-5">
+                                <h3 class="fw-bold h1 text-dark">Create a Better Home Environment</h3>
+                                <p class="fw-light mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac sagittis neque, vel egestas est.</p>
+                                <a href="#" class="btn btn-secondary pb-2 pe-4 ps-4 pt-2">Read More</a>
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>
+                <img src="https://images.unsplash.com/photo-1505273471770-de630b5d5c5d?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDIwfHxza3lsaW5lfGVufDB8fHx8MTYyNjU0OTQ4NQ&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=1200&h=500&fit=crop" class="bottom-0 end-0 h-100 img-fluid position-absolute start-0 top-0 w-100" style="z-index: -1; object-fit: cover;"/> 
+            </section>
+            <section class="pb-5 pt-5"> 
+                <div class="container pb-4 pt-4"> 
+                    <div class="align-items-center row"> 
+                        <div class="col-lg-6 pb-3 pt-3 text-center"> 
+                            <img src="https://images.unsplash.com/photo-1446133132410-19df4d6610a1?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDIzfHxidWlsZGluZ3N8ZW58MHx8fHwxNjI2NTUwNzEx&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=400&h=400&fit=crop" class="img-fluid w-100"/> 
+                        </div>                         
+                        <div class="col-lg-6 pb-3 pt-3"> 
+                            <h3 class="fw-bold h1 text-dark">Taking Your Staisfaction To New Heights</h3>
+                            <p class="fw-light mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac sagittis neque, vel egestas est.</p> 
+                            <a href="#" class="btn btn-secondary pb-2 pe-4 ps-4 pt-2">Read More</a> 
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section>
+            <section class="pb-5 pt-5"> 
+                <div class="container pb-4 pt-4"> 
+                    <div class="align-items-center row"> 
+                        <div class="col-lg-5 pb-3 pt-3"> 
+                            <h3 class="fw-bold h1 text-dark">Taking Your Staisfaction To New Heights</h3>
+                            <p class="fw-light mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac sagittis neque, vel egestas est.</p> 
+                            <a href="#" class="btn btn-secondary pb-2 pe-4 ps-4 pt-2">Read More</a> 
+                        </div>
+                        <div class="col-lg-7 pb-3 pt-3 text-center"> 
+                            <img src="https://images.unsplash.com/photo-1470075801209-17f9ec0cada6?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDE1fHxidWlsZGluZ3N8ZW58MHx8fHwxNjI2NTUwNzEx&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=400&h=300&fit=crop" class="img-fluid w-100"/> 
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section>
+            <section class="pb-5 pt-5"> 
+                <div class="container pb-5 pt-5"> 
+                    <div class="col-lg-7 me-auto ms-auto text-center">
+                        <p class="fs-4 fw-light mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac sagittis neque, vel egestas est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar faucibus neque.</p>
+                    </div>                     
+                </div>                 
+            </section>
+            <section class="bg-dark pb-5 pt-5 text-white"> 
+                <div class="container pb-4 pt-4"> 
+                    <div class="align-items-center row"> 
+                        <div class="col-lg-6"> 
+                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDI3fHxidWlsZGluZ3N8ZW58MHx8fHwxNjI2NTUwNzEx&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=450&h=300&fit=crop" class="img-fluid w-100"/>
+                            <div class="p-4">
+                                <h3 class="fw-bold">Create a Better Home Environment</h3>
+                                <p class="fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac sagittis neque, vel egestas est.</p>
+                            </div>                             
+                        </div>                         
+                        <div class="col-lg-6 d-lg-flex flex-column-reverse"> 
+                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDI3fHxidWlsZGluZ3N8ZW58MHx8fHwxNjI2NTUwNzEx&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=450&h=300&fit=crop" class="img-fluid w-100"/>
+                            <div class="p-4">
+                                <h3 class="fw-bold">Create a Better Home Environment</h3>
+                                <p class="fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac sagittis neque, vel egestas est.</p>
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section>
+            <section class="bg-light pb-5 pt-5"> 
+                <div class="container pb-5 pt-5"> 
+                    <div class="align-items-center mb-3 row"> 
+                        <div class="col-lg-7"> 
+                            <h2 class="h6 mb-1 text-primary">Services</h2> 
+                            <h3 class="fw-bold h2 mb-1">We can do useful things for our clients</h3>
+                            <p class="fw-light">                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor. </p> 
+                        </div>                         
+                        <div class="col-lg-auto ms-auto"> 
+                            <a href="#" class="btn btn-primary">Read More</a> 
+                        </div>                         
+                    </div>                     
+                    <div class="align-items-center mb-3 row"> 
+                        <div class="col-lg-6 order-lg-2"> 
+                            <img src="https://images.unsplash.com/photo-1446133132410-19df4d6610a1?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDIzfHxidWlsZGluZ3N8ZW58MHx8fHwxNjI2NTUwNzEx&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=400&h=400&fit=crop" class="img-fluid w-100"/> 
+                        </div>                         
+                        <div class="col-lg-6 ms-auto order-lg-1"> 
+                            <div class="row"> 
+                                <div class="col-sm-6 pb-3 pt-3"> 
+                                    <div class="pb-3 pt-3"> 
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40" fill="currentColor" class="mb-3 text-primary"> 
+                                            <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm13.464 12.536L20 12l-3.536-3.536L15.05 9.88 17.172 12l-2.122 2.121 1.414 1.415zM6.828 12L8.95 9.879 7.536 8.464 4 12l3.536 3.536L8.95 14.12 6.828 12zm4.416 5l3.64-10h-2.128l-3.64 10h2.128z"></path>                                             
+                                        </svg>                                         
+                                        <h4 class="fw-bold h5 text-dark">Development</h4>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.</p>
+                                        <a href="#">Learn More</a> 
+                                    </div>                                     
+                                </div>                                 
+                                <div class="col-sm-6 pb-3 pt-3"> 
+                                    <div class="pb-3 pt-3"> 
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40" fill="currentColor" class="mb-3 text-primary"> 
+                                            <path d="M5.636 12.707l1.828 1.829L8.88 13.12 7.05 11.293l1.414-1.414 1.829 1.828 1.414-1.414L9.88 8.464l1.414-1.414L13.12 8.88l1.415-1.415-1.829-1.828 2.829-2.828a1 1 0 0 1 1.414 0l4.242 4.242a1 1 0 0 1 0 1.414L8.464 21.192a1 1 0 0 1-1.414 0L2.808 16.95a1 1 0 0 1 0-1.414l2.828-2.829zm8.485 5.656l4.243-4.242L21 16.757V21h-4.242l-2.637-2.637zM5.636 9.878L2.807 7.05a1 1 0 0 1 0-1.415l2.829-2.828a1 1 0 0 1 1.414 0L9.88 5.635 5.636 9.878z"></path>                                             
+                                        </svg>                                         
+                                        <h4 class="fw-bold h5 text-dark">Product Design</h4>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.</p>
+                                        <a href="#">Learn More</a> 
+                                    </div>                                     
+                                </div>                                 
+                                <div class="col-sm-6 pb-3 pt-3"> 
+                                    <div class="pb-3 pt-3"> 
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40" fill="currentColor" class="mb-3 text-primary"> 
+                                            <path d="M15 21h-2v-3h-2v3H9v-2H7v2H4a1 1 0 0 1-1-1v-3h2v-2H3v-2h3v-2H3V9h2V7H3V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v9h9a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-3v-2h-2v2z"></path>                                             
+                                        </svg>                                         
+                                        <h4 class="fw-bold h5 text-dark">UI/UX Research</h4>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.</p>
+                                        <a href="#">Learn More</a> 
+                                    </div>                                     
+                                </div>                                 
+                                <div class="col-sm-6 pb-3 pt-3"> 
+                                    <div class="pb-3 pt-3"> 
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40" fill="currentColor" class="mb-3 text-primary"> 
+                                            <path d="M8 5h3v9H8v3H6v-3H3V5h3V2h2v3zm10 5h3v9h-3v3h-2v-3h-3v-9h3V7h2v3z"></path>                                             
+                                        </svg>                                         
+                                        <h4 class="fw-bold h5 text-dark">Digital Marketing</h4>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.</p>
+                                        <a href="#">Learn More</a> 
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section>
+            <section class="bg-light pb-5 pt-5"> 
+                <div class="container pb-5 pt-5"> 
+                    <div class="align-items-center mb-3 row"> 
+                        <div class="col-lg-4"> 
+                            <img src="https://images.unsplash.com/photo-1446133132410-19df4d6610a1?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDIzfHxidWlsZGluZ3N8ZW58MHx8fHwxNjI2NTUwNzEx&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=400&h=400&fit=crop" class="img-fluid w-100"/> 
+                        </div>                         
+                        <div class="col-lg-7"> 
+                            <div class="row"> 
+                                <div class="col-sm-6 pb-3 pt-3"> 
+                                    <div class="pb-3 pt-3"> 
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40" fill="currentColor" class="mb-3 text-primary"> 
+                                            <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm13.464 12.536L20 12l-3.536-3.536L15.05 9.88 17.172 12l-2.122 2.121 1.414 1.415zM6.828 12L8.95 9.879 7.536 8.464 4 12l3.536 3.536L8.95 14.12 6.828 12zm4.416 5l3.64-10h-2.128l-3.64 10h2.128z"></path>                                             
+                                        </svg>                                         
+                                        <h4 class="fw-bold h5 text-dark">Development</h4>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.</p>
+                                        <a href="#">Learn More</a> 
+                                    </div>                                     
+                                </div>                                 
+                                <div class="col-sm-6 pb-3 pt-3"> 
+                                    <div class="pb-3 pt-3"> 
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40" fill="currentColor" class="mb-3 text-primary"> 
+                                            <path d="M5.636 12.707l1.828 1.829L8.88 13.12 7.05 11.293l1.414-1.414 1.829 1.828 1.414-1.414L9.88 8.464l1.414-1.414L13.12 8.88l1.415-1.415-1.829-1.828 2.829-2.828a1 1 0 0 1 1.414 0l4.242 4.242a1 1 0 0 1 0 1.414L8.464 21.192a1 1 0 0 1-1.414 0L2.808 16.95a1 1 0 0 1 0-1.414l2.828-2.829zm8.485 5.656l4.243-4.242L21 16.757V21h-4.242l-2.637-2.637zM5.636 9.878L2.807 7.05a1 1 0 0 1 0-1.415l2.829-2.828a1 1 0 0 1 1.414 0L9.88 5.635 5.636 9.878z"></path>                                             
+                                        </svg>                                         
+                                        <h4 class="fw-bold h5 text-dark">Product Design</h4>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.</p>
+                                        <a href="#">Learn More</a> 
+                                    </div>                                     
+                                </div>                                 
+                                <div class="col-sm-6 pb-3 pt-3"> 
+                                    <div class="pb-3 pt-3"> 
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40" fill="currentColor" class="mb-3 text-primary"> 
+                                            <path d="M15 21h-2v-3h-2v3H9v-2H7v2H4a1 1 0 0 1-1-1v-3h2v-2H3v-2h3v-2H3V9h2V7H3V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v9h9a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-3v-2h-2v2z"></path>                                             
+                                        </svg>                                         
+                                        <h4 class="fw-bold h5 text-dark">UI/UX Research</h4>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.</p>
+                                        <a href="#">Learn More</a> 
+                                    </div>                                     
+                                </div>                                 
+                                <div class="col-sm-6 pb-3 pt-3"> 
+                                    <div class="pb-3 pt-3"> 
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40" fill="currentColor" class="mb-3 text-primary"> 
+                                            <path d="M8 5h3v9H8v3H6v-3H3V5h3V2h2v3zm10 5h3v9h-3v3h-2v-3h-3v-9h3V7h2v3z"></path>                                             
+                                        </svg>                                         
+                                        <h4 class="fw-bold h5 text-dark">Digital Marketing</h4>
+                                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.</p>
+                                        <a href="#">Learn More</a> 
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section>
+            <section class="bg-light pb-5 pt-5"> 
+                <div class="container pb-5 pt-5"> 
+                    <div class="gy-5 justify-content-center row"> 
+                        <div class="col-lg-4 col-md-6 pt-lg-5"> 
+                            <h2 class="fw-bold h1 text-dark">Shop</h2>
+                            <img src="https://images.unsplash.com/photo-1587832433447-9f37e5c7ea47?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDEzfHxidWlsZGluZyUyMGRhcmt8ZW58MHx8fHwxNjI2NTU1MTY4&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=400&h=500&fit=crop" class="img-fluid mb-4 w-100"/>
+                            <h3 class="h2 text-dark">Discover Your New Place</h3>
+                            <p class="fw-light mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac sagittis neque, vel egestas est.</p>
+                            <a href="#" class="btn btn-secondary pb-2 pe-4 ps-4 pt-2">Read More</a> 
+                        </div>
+                        <div class="col-lg-4 col-md-6"> 
+                            <h2 class="fw-bold h1 text-dark">Food &amp; Drinks</h2>
+                            <img src="https://images.unsplash.com/photo-1587832433447-9f37e5c7ea47?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDEzfHxidWlsZGluZyUyMGRhcmt8ZW58MHx8fHwxNjI2NTU1MTY4&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=400&h=500&fit=crop" class="img-fluid mb-4 w-100"/>
+                            <h3 class="h2 text-dark">Discover Your New Place</h3>
+                            <p class="fw-light mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac sagittis neque, vel egestas est.</p>
+                            <a href="#" class="btn btn-secondary pb-2 pe-4 ps-4 pt-2">Read More</a> 
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-lg-5"> 
+                            <h2 class="fw-bold h1 text-dark">Gym</h2>
+                            <img src="https://images.unsplash.com/photo-1587832433447-9f37e5c7ea47?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDEzfHxidWlsZGluZyUyMGRhcmt8ZW58MHx8fHwxNjI2NTU1MTY4&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=400&h=500&fit=crop" class="img-fluid mb-4 w-100"/>
+                            <h3 class="h2 text-dark">Discover Your New Place</h3>
+                            <p class="fw-light mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac sagittis neque, vel egestas est.</p>
+                            <a href="#" class="btn btn-secondary pb-2 pe-4 ps-4 pt-2">Read More</a> 
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section>
+            <section class="bg-dark pb-5 pt-5 text-light"> 
+                <div class="container pb-4 pt-4">
+                    <div class="col-lg-6 me-auto ms-auto text-center">
+                        <div class="align-items-center row">
+                            <div class="col">
+                                <hr class="border-secondary mb-0 mt-0"/> 
+                            </div>
+                            <div class="col-auto">
+                                <div class="bg-secondary p-2" style="transform: rotate(45deg);"></div>                                 
+                            </div>
+                            <div class="col">
+                                <hr class="border-secondary mb-0 mt-0"/> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container pb-5 pt-5"> 
+                    <div class="gy-5 justify-content-center row"> 
+                        <div class="col-lg-4 col-md-6 pt-lg-5"> 
+                            <h2 class="fw-bold">Shop</h2>
+                            <img src="https://images.unsplash.com/photo-1574634534894-89d7576c8259?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDZ8fHNob3BwaW5nfGVufDB8fHx8MTYyNjU5MTY3Ng&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=400&h=500&fit=crop" class="img-fluid mb-4 w-100"/>
+                            <h3>Discover Something New</h3>
+                            <p class="fw-light mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac sagittis neque, vel egestas est.</p>
+                            <a href="#" class="btn btn-outline-light pb-2 pe-4 ps-4 pt-2">Explorer Now</a> 
+                        </div>
+                        <div class="col-lg-4 col-md-6"> 
+                            <h2 class="fw-bold">Food &amp; Drinks</h2>
+                            <img src="https://images.unsplash.com/photo-1443131307017-4097c8ac7763?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDIwfHxmb29kJTIwZHJpbmt8ZW58MHx8fHwxNjI2NTkxNjU5&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=400&h=500&fit=crop" class="img-fluid mb-4 w-100"/>
+                            <h3>Shine &amp; Dine</h3>
+                            <p class="fw-light mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac sagittis neque, vel egestas est.</p>
+                            <a href="#" class="btn btn-outline-light pb-2 pe-4 ps-4 pt-2">Explorer Now</a> 
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-lg-5"> 
+                            <h2 class="fw-bold">Gym &amp; Park</h2>
+                            <img src="https://images.unsplash.com/photo-1586401100295-7a8096fd231a?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDE2MXx8Zml0bmVzc3xlbnwwfHx8fDE2MjY1OTE5NTY&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=400&h=500&fit=crop" class="img-fluid mb-4 w-100"/>
+                            <h3>Score Your Goals</h3>
+                            <p class="fw-light mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac sagittis neque, vel egestas est.</p>
+                            <a href="#" class="btn btn-outline-light pb-2 pe-4 ps-4 pt-2">Explorer Now</a> 
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section>
+            <section class="bg-secondary pb-5 pt-5 text-center">
+                <div class="container pb-5 pt-5"> 
+                    <div class="justify-content-center row"> 
+                        <div class="col-lg-3 col-sm-6 pb-3 pt-3">
+                            <div class="pb-5 pt-5 text-white">
+                                <h2 class="display-3 fw-bold mb-0">355K</h2>
+                                <p class="mb-0">sq ft area</p>
+                            </div>                             
+                        </div>
+                        <div class="col-lg-3 col-sm-6 pb-3 pt-3">
+                            <div class="pb-5 pt-5 text-white">
+                                <h2 class="display-3 fw-bold mb-0">50K</h2>
+                                <p class="mb-0">sq ft amenities space</p>
+                            </div>                             
+                        </div>
+                        <div class="col-lg-3 col-sm-6 pb-3 pt-3">
+                            <div class="pb-5 pt-5 text-white">
+                                <h2 class="display-3 fw-bold mb-0">250</h2>
+                                <p class="mb-0">appartments</p>
+                            </div>                             
+                        </div>
+                        <div class="col-lg-3 col-sm-6 pb-3 pt-3">
+                            <div class="pb-5 pt-5 text-white">
+                                <h2 class="display-3 fw-bold mb-0">15</h2>
+                                <p class="mb-0">minutes from city</p>
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>
+            </section>
+            <section class="background-center-center background-cover bg-light pb-5 pt-5 text-center" style="background-image:url('https://images.unsplash.com/photo-1571838587418-a5f0b80419ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDkyMnwwfDF8c2VhcmNofDE1fHxidWlsZGluZyUyMGRhcmt8ZW58MHx8fHwxNjI2NTU1MTY4&ixlib=rb-1.2.1&q=80&w=1080');">
+                <div class="container pb-4 pt-4"> 
+                    <div class="g-3 justify-content-center row"> 
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="bg-dark opacity-85 pb-5 ps-3 pe-3 pt-5 text-white">
+                                <h2 class="display-3 fw-bold mb-0">355K</h2>
+                                <p class="mb-0">sq ft area</p>
+                            </div>                             
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="bg-dark opacity-85 pb-5 ps-3 pe-3 pt-5 text-white">
+                                <h2 class="display-3 fw-bold mb-0">50K</h2>
+                                <p class="mb-0">sq ft amenities space</p>
+                            </div>                             
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="bg-dark opacity-85 pb-5 ps-3 pe-3 pt-5 text-white">
+                                <h2 class="display-3 fw-bold mb-0">250</h2>
+                                <p class="mb-0">appartments</p>
+                            </div>                             
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="bg-dark opacity-85 pb-5 ps-3 pe-3 pt-5 text-white">
+                                <h2 class="display-3 fw-bold mb-0">15</h2>
+                                <p class="mb-0">minutes from city</p>
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>
+            </section>
+            <section class="bg-info pb-5 pt-5 text-black-50 text-center">
+                <div class="container pb-5 pt-5"> 
+                    <div class="col-lg-7 me-auto ms-auto text-center">
+                        <h3 class="fw-bold h1 mb-4 text-secondary">Our Amenities</h3>
+                    </div>
+                    <div class="col-lg-10 me-auto ms-auto text-center">
+                        <div class="justify-content-center row"> 
+                            <div class="col-6 col-lg-4 col-sm-6">
+                                <div class="pb-4 pt-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" width="100" height="100" class="text-secondary">
+                                        <path d="M430.325 217.106H373.89v-19.713h7.352a9.448 9.448 0 0 0 9.45-9.45v-38.037a9.448 9.448 0 0 0-9.45-9.45H130.298a9.452 9.452 0 0 0-9.45 9.45v38.037a9.452 9.452 0 0 0 9.45 9.45h7.808v19.713H81.671a9.451 9.451 0 0 0-9.45 9.45v135.538a9.452 9.452 0 0 0 9.45 9.45h348.658a9.448 9.448 0 0 0 9.45-9.45V226.556a9.453 9.453 0 0 0-9.454-9.45zM91.121 277.5h46.985v75.144H91.121zm65.885-9.45v-70.657h197.988v155.25h-42.941V281.77a9.439 9.439 0 0 0 7.764-9.28 63.817 63.817 0 1 0-127.634 0 9.434 9.434 0 0 0 7.752 9.276v70.881h-42.929zm55.079-5.018a44.924 44.924 0 0 1 87.834 0zm6.753 18.903h27.71v70.709h-27.71zm46.608 70.711v-70.71h27.71v70.708h-27.71zm108.444 0V277.5h46.985v75.144H373.89z" data-name="Mall 01"/>
+                                    </svg>
+                                    <p class="h5 mb-0">15 Minutes to Mall</p>
+                                </div>                                 
+                            </div>
+                            <div class="col-6 col-lg-4 col-sm-6">
+                                <div class="pb-4 pt-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="img-fluid text-secondary" width="100" height="100">
+                                        <path d="M441.324 118.126h-79.55a9.447 9.447 0 0 0-9.45 9.45v56.489h-2.731v-14.31a9.451 9.451 0 0 0-9.45-9.45H206.4a9.449 9.449 0 0 0-9.45 9.45v14.31h-37.28v-56.489a9.451 9.451 0 0 0-9.45-9.45H70.672a9.449 9.449 0 0 0-9.45 9.45v179.83a9.449 9.449 0 0 0 9.45 9.45h79.55a9.451 9.451 0 0 0 9.45-9.45v-56.488h2.945v29.1a9.49 9.49 0 0 0 .205 1.953c.025.107.07.208.097.321a9.848 9.848 0 0 0 .491 1.508c.073.168.177.315.259.473a9.47 9.47 0 0 0 .677 1.175c.13.18.284.337.423.51a9.386 9.386 0 0 0 .837.926c.054.05.089.11.145.16l40.314 36.22v61.16a9.449 9.449 0 0 0 9.45 9.45h99.074a9.451 9.451 0 0 0 9.45-9.45v-60.512l24.986-68.78c.047-.126.05-.262.088-.39a9.162 9.162 0 0 0 .346-1.497c.035-.242.057-.479.072-.721.013-.208.063-.407.063-.621v-.986h2.732v56.489a9.447 9.447 0 0 0 9.45 9.45h79.55a9.451 9.451 0 0 0 9.45-9.45v-179.83a9.457 9.457 0 0 0-9.453-9.45zM330.692 242.451H307v-63.246h23.692zm-71.133-63.246h28.542v63.245H259.56zm-18.904 0v35.135H215.85v-35.135zm-59.14 91.359V233.24h56.91v37.324zm124.188 48.453a9.477 9.477 0 0 0-.567 3.226v52.724h-80.174v-55.921a9.443 9.443 0 0 0-3.134-7.028l-25.103-22.55h51.15a9.452 9.452 0 0 0 9.45-9.45v-18.665h69.325z" data-name="Gym"/>
+                                    </svg>
+                                    <p class="h5 mb-0">FIteness Center</p>
+                                </div>                                 
+                            </div>
+                            <div class="col-6 col-lg-4 col-sm-6">
+                                <div class="pb-4 pt-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" width="100" height="100" class="img-fluid text-secondary">
+                                        <g data-name="Park">
+                                            <path d="M287.099 222.931a98.063 98.063 0 1 0-107.514 97.603v47.697h-18.833v18.9h56.574v-18.9H198.49v-47.697a98.196 98.196 0 0 0 88.61-97.603zm-142.63 27.953 13.533-13.192 21.583 22.135V208.71h18.9v24.365l21.588-22.135 13.532 13.192-35.12 36.02v59.998h-18.9v-33.248zM411.577 270.625H293.594a9.452 9.452 0 0 0-9.45 9.45v106.612h18.9v-28.952h99.083v28.952h18.9V280.075a9.45 9.45 0 0 0-9.45-9.45zm-9.45 18.9v15.21h-99.083v-15.21zm-99.083 34.11h99.083v15.2h-99.083z"/>
+                                        </g>
+                                    </svg>
+                                    <p class="h5 mb-0">Open Park</p>
+                                </div>                                 
+                            </div>
+                            <div class="col-6 col-lg-4 col-sm-6">
+                                <div class="pb-4 pt-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-24 -24 112 112" width="100" height="100" class="text-secondary" fill="currentColor">
+                                        <g data-name="Swimming Pool">
+                                            <path d="M63 45.14a8.784 8.784 0 0 0-5.753 2.048 7.125 7.125 0 0 1-9.17 0 9.099 9.099 0 0 0-11.503 0 7.116 7.116 0 0 1-9.163 0 8.781 8.781 0 0 0-5.752-2.048 8.777 8.777 0 0 0-5.75 2.048 6.82 6.82 0 0 1-4.58 1.672 6.818 6.818 0 0 1-4.58-1.671A8.773 8.773 0 0 0 1 45.14a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1 6.818 6.818 0 0 1 4.58 1.671 8.773 8.773 0 0 0 5.748 2.049 8.776 8.776 0 0 0 5.75-2.048 7.116 7.116 0 0 1 9.164 0 9.097 9.097 0 0 0 11.501 0 7.119 7.119 0 0 1 9.166 0 9.103 9.103 0 0 0 11.506 0A6.83 6.83 0 0 1 63 59.14a1 1 0 0 0 1-1v-12a1 1 0 0 0-1-1z"/>
+                                            <path d="M50 46.09V3.5a3.5 3.5 0 0 0-7 0v39.66a10.773 10.773 0 0 1 6.25 2.41c.27.19.52.37.75.52zM21 43.16V3.5a3.5 3.5 0 0 0-7 0v42.58c.23-.15.47-.32.74-.51A10.748 10.748 0 0 1 21 43.16zM63 5H52v6h11a1.003 1.003 0 0 0 1-1V6a1.003 1.003 0 0 0-1-1zM1 11h11V5H1a1.003 1.003 0 0 0-1 1v4a1.003 1.003 0 0 0 1 1zM23 5h18v6H23zM23 15h18v6H23zM23 25h18v6H23zM23 35h18v6H23z"/>
+                                        </g>
+                                    </svg>
+                                    <p class="h5 mb-0">Indoor Swimming Pool</p>
+                                </div>                                 
+                            </div>
+                            <div class="col-6 col-lg-4 col-sm-6">
+                                <div class="pb-4 pt-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" width="100" height="100" class="img-fluid text-secondary">
+                                        <path d="M421.173 366.475 318.572 251.132a9.428 9.428 0 0 0-7.041-3.17l-43.313-.081V191.37h18.551a9.45 9.45 0 0 0 5.5-17.133l-94.437-67.62a9.448 9.448 0 0 0-11.003 0L92.385 174.23a9.45 9.45 0 0 0 5.5 17.133h18.548v215.788h18.9V298.445h7.418V407.15h18.9V381.57h61.346v25.582h18.9V298.445h7.419V407.15h18.9V299.856h24.113l89.995 101.184a9.45 9.45 0 0 0 6.508 3.153c.186.01.365.016.552.016a9.455 9.455 0 0 0 6.28-2.391l24.728-22a9.45 9.45 0 0 0 .781-13.343zm-285.84-175.111h113.983v88.18h-16.869v-24.63a40.122 40.122 0 1 0-80.243 0v24.63h-16.868v-88.18zm26.321 171.306v-23.707h61.347v23.707zm61.343-42.607h-61.343v-21.616h61.347v21.616zm167.168 61.353-86.53-97.29a9.449 9.449 0 0 0-7.06-3.17h-27.213v-14.175l37.901.07 93.507 105.128z" data-name="Playground"/>
+                                    </svg>
+                                    <p class="h5 mb-0">Kids Playground</p>
+                                </div>                                 
+                            </div>
+                            <div class="col-6 col-lg-4 col-sm-6">
+                                <div class="pb-4 pt-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" width="100" height="100" class="img-fluid text-secondary">
+                                        <g data-name="Parking Lot">
+                                            <path d="M425.68 108.24H86.324a9.452 9.452 0 0 0-9.45 9.45v41.422a9.451 9.451 0 0 0 9.45 9.45h7.875V394.31a9.452 9.452 0 0 0 9.45 9.45H408.35a9.448 9.448 0 0 0 9.45-9.45V168.562h7.875a9.447 9.447 0 0 0 9.45-9.45V117.69a9.442 9.442 0 0 0-9.446-9.45zM213.542 348.276v-18.9h18.069v18.9zM283.59 363.5v21.36h-55.175V363.5zm14.871-15.224h-18.068v-18.9h18.068zm53.195 36.584H302.49V363.5h20.812v-49.612h-18.727l-10.181-39.375H217.61l-10.178 39.375h-18.73V363.5h20.812v21.36H160.35V253.683H351.65V384.86zm47.25 0h-28.35V244.232a9.448 9.448 0 0 0-9.45-9.45H150.899a9.452 9.452 0 0 0-9.45 9.45v140.63h-28.35v-216.3H398.9V384.86z"/>
+                                            <path d="M237.734 193.29h36.537v18.9h-36.537zM164.652 193.29h36.54v18.9h-36.54zM310.815 193.29h36.54v18.9h-36.54z"/>
+                                        </g>
+                                    </svg>
+                                    <p class="h5 mb-0">Private Parking</p>
+                                </div>                                 
+                            </div>
+                            <div class="col-6 col-lg-4 col-sm-6">
+                                <div class="pb-4 pt-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-24 -24 112 112" fill="currentColor" class="text-secondary" width="100" height="100">
+                                        <rect width="7" height="64" rx="1" ry="1"/>
+                                        <path d="M13 46v12a1.003 1.003 0 0 1-1 1H9V45h3a1.003 1.003 0 0 1 1 1zM63.9 15.56a1 1 0 0 0-.72-.66L22.63 5.03a.989.989 0 0 0-.75.12.96.96 0 0 0-.45.61l-1.45 5.93 32.04 7.8 7.61 1.85 4.08-4.82a.99.99 0 0 0 .19-.96zm-31.64-4.53a1.012 1.012 0 0 1-.97.76.986.986 0 0 1-.24-.03l-6.04-1.47a.998.998 0 1 1 .47-1.94l6.04 1.47a1.001 1.001 0 0 1 .74 1.21zM50.57 21.2l-.81 3.34-1.68 6.9-1.29 5.28-10.45-2.54a6.13 6.13 0 0 0 .29-.75 7.998 7.998 0 1 0-15.49-3.85 5.886 5.886 0 0 0-.12.87L16.7 29.4a1.002 1.002 0 0 1-.73-1.21l3.54-14.55zM56.01 26.06l-1.68 6.9a1.001 1.001 0 0 1-.97.77.986.986 0 0 1-.24-.03l-3.34-.81.56-2.31 1.59-6.54h.01l3.34.81a1.03 1.03 0 0 1 .62.46.978.978 0 0 1 .11.75z"/>
+                                        <path d="M29 25a5.926 5.926 0 0 0-5.896 4.951A4.761 4.761 0 0 0 23 31a6 6 0 0 0 6 6 2.343 2.343 0 0 0 .288-.01 6.046 6.046 0 0 0 5.436-4.16A6.108 6.108 0 0 0 35 31a6.007 6.007 0 0 0-6-6zM29.16 39l-5.85 15.36a.999.999 0 0 1-.93.64H15v-6h3.93l4.63-12.15A7.892 7.892 0 0 0 29 39z"/>
+                                    </svg>
+                                    <p class="h5 mb-0">High Level Security</p>
+                                </div>                                 
+                            </div>
+                            <div class="col-6 col-lg-4 col-sm-6">
+                                <div class="pb-4 pt-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="text-secondary" fill="currentColor" width="100" height="100">
+                                        <path d="M429.475 241.468v-.05c-.057-27.708-32.378-50.923-82.656-63.56v-13.395l39.117-22.81a9.452 9.452 0 0 0-.104-16.386l-43.804-24.787a9.448 9.448 0 0 0-14.105 8.224v65.08a400.223 400.223 0 0 0-71.921-6.2c-28.877 0-55.652 2.725-79.128 7.61v-10.731l39.11-22.81a9.449 9.449 0 0 0-.105-16.386l-43.803-24.787a9.45 9.45 0 0 0-14.106 8.224v71.074c-46.144 12.987-75.405 35.286-75.449 61.655v.06a36.336 36.336 0 0 0 2.955 14.158l33.765 149.726a9.449 9.449 0 0 0 9.217 7.371h255.084a9.458 9.458 0 0 0 9.223-7.37l33.759-149.736a36.358 36.358 0 0 0 2.955-14.15.07.07 0 0 1-.004-.024zm-82.656-116.56 15.388 8.706-15.388 8.975zm-169.952 0 15.385 8.706-15.384 8.975zm79.131 61.58c91.098 0 154.577 28.986 154.577 55.001 0 4.345-1.802 8.764-5.175 13.123-25.046-24.68-83.29-40.864-149.405-40.864-65.79 0-124.397 16.229-149.414 40.855-3.364-4.357-5.166-8.773-5.166-13.114 0-26.015 63.485-55.001 154.583-55.001zm119.987 207.358h-84.814v-27.764a35.174 35.174 0 0 0-70.348 0v27.764h-84.811l-24.948-110.638c30.501 19.7 82.936 32.19 144.934 32.19 62.005 0 114.433-12.49 144.938-32.19z" data-name="Colosseum"/>
+                                    </svg>
+                                    <p class="h5 mb-0">Community Space</p>
+                                </div>                                 
+                            </div>                             
+                        </div>
+                    </div>                     
+                </div>
+            </section>
+            <section class="bg-info pb-5 pt-5 text-white"> 
+                <div class="container pb-5 pt-5"> 
+                    <div class="row"> 
+                        <div class="col-sm-6 col-xl-3 pb-3 pt-3"> 
+                            <div class="pb-3 pt-3 text-center"> 
+                                <div class="ratio ratio-1x1">
+                                    <div class="bg-secondary p-0"></div>
+                                    <div class="p-4">
+                                        <div class="h-100 overflow-hidden position-relative poster w-100"></div>
+                                    </div>
+                                </div>
+                            </div>                             
+                        </div>
+                        <div class="col-sm-6 col-xl-3 pb-3 pt-3"> 
+                            <div class="pb-3 pt-3 text-center"> 
+                                <div class="ratio ratio-1x1">
+                                    <div class="bg-light p-4 rounded-circle" style="
+/* border-bottom-right-radius: 0px !important */
+/* border-bottom-left-radius: 0px !important */">
+                                        <div class="h-100 overflow-hidden position-relative poster w-100"></div>
+                                    </div>
+                                </div>
+                            </div>                             
+                        </div>
+                        <div class="col-sm-6 col-xl-3 pb-3 pt-3"> 
+                            <div class="pb-3 pt-3 text-center"> 
+                                <div class="ratio ratio-1x1">
+                                    <div class="bg-light p-4 rounded-circle" style="border-bottom-left-radius: 0px !important;">
+                                        <div class="h-100 overflow-hidden position-relative poster rounded-circle w-100"></div>
+                                    </div>
+                                </div>
+                            </div>                             
+                        </div>
+                        <div class="col-sm-6 col-xl-3 pb-3 pt-3"> 
+                            <div class="pb-3 pt-3 text-center"> 
+                                <div class="ratio ratio-1x1">
+                                    <div class="bg-light p-4 rounded-circle" style="border-bottom-right-radius: 0px !important;">
+                                        <div class="h-100 overflow-hidden position-relative poster rounded-circle w-100"></div>
+                                    </div>
+                                </div>
+                            </div>                             
+                        </div>
+                        <div class="col-sm-6 col-xl-3 pb-3 pt-3"> 
+                            <div class="pb-3 pt-3 text-center"> 
+                                <div class="ratio ratio-1x1">
+                                    <div class="bg-light p-4 rounded-circle" style="border-bottom-right-radius: 0px !important; border-bottom-left-radius: 0px !important;">
+                                        <div class="h-100 overflow-hidden position-relative poster w-100"></div>
+                                    </div>
+                                </div>
+                            </div>                             
+                        </div>
+                        <div class="col-sm-6 col-xl-3 pb-3 pt-3"> 
+                            <div class="pb-3 pt-3 text-center"> 
+                                <div class="ratio ratio-1x1">
+                                    <div class="bg-light p-4 rounded-circle" style="border-bottom-right-radius: 0px !important; border-bottom-left-radius: 0px !important;">
+                                        <div class="h-100 overflow-hidden position-relative poster rounded-circle w-100"></div>
+                                    </div>
+                                </div>
+                            </div>                             
+                        </div>
+                        <div class="col-sm-6 col-xl-3 pb-3 pt-3"> 
+                            <div class="pb-3 pt-3 text-center"> 
+                                <div class="ratio ratio-1x1">
+                                    <div class="bg-light p-4 rounded-circle" style="border-bottom-right-radius: 0px !important; border-bottom-left-radius: 0px !important;">
+                                        <div class="h-100 overflow-hidden position-relative poster rounded-circle w-100" style="border-bottom-left-radius: 0px !important; border-bottom-right-radius: 0px !important;"></div>
+                                    </div>
+                                </div>
+                            </div>                             
+                        </div>
+                        <div class="col-sm-6 col-xl-3 pb-3 pt-3"> 
+                            <div class="pb-3 pt-3 text-center"> 
+                                <div class="ratio ratio-1x1">
+                                    <div class="bg-light p-4 rounded-circle" style="border-bottom-right-radius: 0px !important; border-bottom-left-radius: 0px !important;">
+                                        <div class="h-100 overflow-hidden position-relative poster rounded-circle w-100" style="border-bottom-left-radius: 0px !important;"></div>
+                                    </div>
+                                </div>
+                            </div>                             
+                        </div>
+                        <div class="col-sm-6 col-xl-3 pb-3 pt-3"> 
+                            <div class="pb-3 pt-3 text-center"> 
+                                <div class="ratio ratio-1x1">
+                                    <div class="bg-light p-4 rounded-circle" style="border-bottom-right-radius: 0px !important; border-bottom-left-radius: 0px !important;">
+                                        <div class="h-100 overflow-hidden position-relative poster rounded-circle w-100" style="border-bottom-right-radius: 0px !important;"></div>
+                                    </div>
+                                </div>
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section>
+            <footer class="bg-light pt-5 text-center"> 
+                <div class="container"> 
+                    <a class="align-items-center d-inline-flex flex-column h2 link-primary mb-5 text-decoration-none text-uppercase" href="#"> <svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="1.75em" width="1.75em" fill="currentColor" class="mb-3">
+                            <path d="M400 400H0V200a201.483 201.483 0 014.063-40.307 198.9 198.9 0 0130.094-71.515 200.583 200.583 0 0187.994-72.461 199 199 0 0137.542-11.654 201.952 201.952 0 0180.614 0 198.9 198.9 0 0171.515 30.093 200.583 200.583 0 0172.461 87.994 199 199 0 0111.654 37.542A201.482 201.482 0 01400 200zM200 50c-82.71 0-150 67.29-150 150s67.29 150 150 150h150V200c0-82.711-67.29-150-150-150z"/>
+                        </svg><span class="fw-bold h4">Merto Tower</span></a>
+                    <div class="col-lg-7 me-auto ms-auto text-center">
+                        <p class="fw-bold h2">Call&nbsp;<a href="#">1111 222 333</a></p>
+                        <p class="fs-5 mb-1">Ancient Bristlecone Pine Forest</p>
+                        <p class="fs-5 mb-1">Visitor Center</p>
+                        <p class="fs-5 mb-1">White Mountain Rd</p>
+                        <p class="fs-5 mb-1">Bishop, CA 93514</p>
+                        <p class="fs-5 mb-1">United States</p>
+                    </div>                     
+                    <div class="pb-3 pt-3 text-center"> 
+                        <hr class="mt-0 "> 
+                        <p class="mb-0">Copyright © 2020 Company Name</p> 
+                    </div>                     
+                </div>                 
+            </footer>
+            <footer class="pt-5"> 
+                <div class="container pb-4 pt-4"> 
+                    <div class="row"> 
+                        <div class="col-xl-4 me-auto py-3"> 
+                            <a class="align-items-end d-inline-flex h2 mb-4 text-decoration-none text-secondary text-uppercase" href="#"> <svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="1.75em" width="1.75em" class="me-2" fill="currentColor">
+                                    <path d="M400 400H0V200a201.483 201.483 0 014.063-40.307 198.9 198.9 0 0130.094-71.515 200.583 200.583 0 0187.994-72.461 199 199 0 0137.542-11.654 201.952 201.952 0 0180.614 0 198.9 198.9 0 0171.515 30.093 200.583 200.583 0 0172.461 87.994 199 199 0 0111.654 37.542A201.482 201.482 0 01400 200zM200 50c-82.71 0-150 67.29-150 150s67.29 150 150 150h150V200c0-82.711-67.29-150-150-150z"/>
+                                </svg><span class="fw-bold h4">Merto Tower</span></a> 
+                            <p class="mb-3">                                Duis pharetra venenatis felis, ut tincidunt ipsum consequat nec. Fusce et porttitor libero, eu aliquam nisi. Nam finibus ullamcorper semper.</p> 
+                            <div class="mb-4"> 
+                                <a href="#">+1 234 567-890</a> 
+                                <br> 
+                                <a href="#" target="_pg_blank">hello@company.com</a> 
+                            </div>                             
+                            <div class="d-inline-flex flex-wrap"> 
+                                <a href="#" class="link-secondary p-1" aria-label="facebook"> <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"> 
+                                        <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/> 
+                                    </svg> </a> 
+                                <a href="#" class="link-secondary p-1" aria-label="twitter"> <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"> 
+                                        <path d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z"/> 
+                                    </svg> </a> 
+                                <a href="#" class="link-secondary p-1" aria-label="instagram"> <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"> 
+                                        <path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/> 
+                                    </svg> </a> 
+                                <a href="#" class="link-secondary p-1" aria-label="linkedin"> <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"> 
+                                        <path d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z"/> 
+                                    </svg> </a> 
+                                <a href="#" class="link-secondary p-1" aria-label="youtube"> <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"> 
+                                        <path d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z"/> 
+                                    </svg> </a> 
+                            </div>                             
+                        </div>                         
+                        <div class="col-sm-4 col-xl-2 py-3"> 
+                            <h2 class="fw-bold h5 mb-4 text-primary text-uppercase">About</h2> 
+                            <ul class="list-unstyled"> 
+                                <li class="mb-3"> 
+                                    <a href="#" class="link-secondary">Get Quote</a> 
+                                </li>                                 
+                                <li class="mb-3"> 
+                                    <a href="#" class="link-secondary">Enterprise Plan</a> 
+                                </li>                                 
+                                <li class="mb-3"> 
+                                    <a href="#" class="link-secondary">Become an Affiliate</a> 
+                                </li>                                 
+                                <li class="mb-3"> 
+                                    <a href="#" class="link-secondary">Our Portfolio</a> 
+                                </li>                                 
+                            </ul>                             
+                        </div>                         
+                        <div class="col-sm-4 col-xl-2 py-3"> 
+                            <h2 class="fw-bold h5 mb-4 text-primary text-uppercase">Services</h2> 
+                            <ul class="list-unstyled"> 
+                                <li class="mb-3"> 
+                                    <a href="#" class="link-secondary">Web Design</a> 
+                                </li>                                 
+                                <li class="mb-3"> 
+                                    <a href="#" class="link-secondary">Web Development</a> 
+                                </li>                                 
+                                <li class="mb-3"> 
+                                    <a href="#" class="link-secondary">WordPress</a> 
+                                </li>                                 
+                                <li class="mb-3"> 
+                                    <a href="#" class="link-secondary">Digital Marketing</a> 
+                                </li>                                 
+                                <li class="mb-3"> 
+                                    <a href="#" class="link-secondary">Content Writing</a> 
+                                </li>                                 
+                            </ul>                             
+                        </div>                         
+                        <div class="col-sm-4 col-xl-2 py-3"> 
+                            <h2 class="fw-bold h5 mb-4 text-primary text-uppercase">Other</h2> 
+                            <ul class="list-unstyled"> 
+                                <li class="mb-3"> 
+                                    <a href="#" class="link-secondary">Business Stories</a> 
+                                </li>                                 
+                                <li class="mb-3"> 
+                                    <a href="#" class="link-secondary">Learning</a> 
+                                </li>                                 
+                                <li class="mb-3"> 
+                                    <a href="#" class="link-secondary">Licence</a> 
+                                </li>                                 
+                                <li class="mb-3"> 
+                                    <a href="#" class="link-secondary">Refund Policy</a> 
+                                </li>                                 
+                                <li class="mb-3"> 
+                                    <a href="#" class="link-secondary">Terms of Service</a> 
+                                </li>                                 
+                            </ul>                             
+                        </div>                         
+                    </div>                     
+                </div>
+                <div class="bg-dark pb-4 pt-4 text-center text-white"> 
+                    <p class="mb-0">Copyright © 2020 Company Name</p> 
+                </div>                 
+            </footer>
+        </main>
+        <footer class="bg-dark pt-5 text-white"> 
+            <div class="container"> 
+                <div class="row"> 
+                    <div class="col-xl-4 py-3"> 
+                        <a class="d-inline-block fw-bold h2 mb-4 text-decoration-none" href="#"> <svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" height="1.5em" width="1.5em" fill="currentColor" class="me-2">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M10 0C4.477 0 0 4.477 0 10v180c0 5.523 4.477 10 10 10h97.926v-25.786c0-1.103.02-2.204.058-3.303a4.496 4.496 0 01-.031-.233l-2.33-20.987v-.001a40.802 40.802 0 00-12.476-25.101l-.001-.001-10.862-10.297H60.265a4.638 4.638 0 110-9.276h12.233l-13.135-12.45a4.638 4.638 0 116.381-6.733l30.594 29c.853-8.61-.18-20.784-7.48-30.853-2.294-3.163-6.572-6.292-12.336-9.198-5.666-2.857-12.31-5.273-18.82-7.23a198.847 198.847 0 00-17.556-4.38c-2.408-.486-4.44-.844-5.948-1.08-1.45-.226-2.167-.297-2.316-.312l-.028-.003c-.002 0-.002 0 0 0-2.345 0-3.585.37-4.175.812-.225.169-1.112.848-.935 4.033.039.696.068 1.468.1 2.314v.021c.348 9.309 1.024 27.385 18.323 48.304 7.283 8.808 16.058 13.391 23.98 15.441 8.067 2.089 14.93 1.474 18.195.308a4.639 4.639 0 013.12 8.736c-5.393 1.926-14.207 2.378-23.64-.063-9.58-2.48-20.131-8.023-28.803-18.51-19.311-23.353-20.08-44.082-20.44-53.755-.031-.847-.06-1.61-.097-2.282-.287-5.163 1.146-9.354 4.631-11.968 3.121-2.34 6.982-2.667 9.74-2.667.834 0 2.277.192 3.776.426 1.66.26 3.827.643 6.348 1.151a208.145 208.145 0 0118.395 4.59c6.802 2.045 14.003 4.643 20.326 7.83 6.224 3.139 12.078 7.083 15.67 12.037 11.438 15.777 10.306 35.034 7.965 44.576a50.09 50.09 0 019.307 18.886 93.709 93.709 0 017.087-15.055c-3.437-7.961-7.105-21.88-.787-35.57 1.982-4.294 5.952-8.144 10.195-11.394 4.355-3.337 9.523-6.432 14.537-9.09 9.914-5.255 19.928-9.162 22.88-9.9 2.768-.692 6.352-.635 9.497 1.707 3.088 2.3 4.838 6.127 5.499 10.978l.053.37.049.338c.815 5.593 3.73 25.592-10.187 45.268-5.042 7.129-11.23 12.871-17.834 16.472-6.588 3.593-13.876 5.19-20.816 3.434a4.637 4.637 0 01-3.358-5.634 4.637 4.637 0 015.634-3.358c4.059 1.027 8.928.234 14.099-2.586 5.157-2.812 10.332-7.506 14.702-13.685 11.748-16.608 9.326-33.4 8.564-38.685l-.001-.004c-.036-.252-.069-.478-.096-.676-.477-3.497-1.509-4.54-1.848-4.792-.28-.209-.765-.383-1.707-.148-1.895.474-11.146 3.988-20.785 9.097-4.763 2.525-9.443 5.348-13.241 8.257-3.91 2.996-6.399 5.72-7.414 7.919-3.518 7.624-2.956 15.628-1.197 22.08a93.244 93.244 0 013.653-4.487l9.501-10.959a4.637 4.637 0 117.009 6.076l-9.501 10.958v.001a84.416 84.416 0 00-20.625 55.286V200H190c5.523 0 10-4.477 10-10V10c0-5.523-4.477-10-10-10H10z"/>
+                            </svg><span class="align-middle ms-1">House Plants</span></a> 
+                        <p class="mb-3">                                Duis pharetra venenatis felis, ut tincidunt ipsum consequat nec. Fusce et porttitor libero, eu aliquam nisi. Nam finibus ullamcorper semper.</p> 
+                        <div class="mb-4"> 
+                            <a href="#" class="link-light">+1 234 567-890</a> 
+                            <br> 
+                            <a href="#" target="_pg_blank" class="link-light">hello@company.com</a> 
+                        </div>                         
+                    </div>                     
+                    <div class="col-md-3 col-xl-2 py-3"> 
+                        <h2 class="fw-bold h5 mb-4 text-primary text-uppercase">About</h2>
+                        <ul class="list-unstyled"> 
+                            <li class="mb-3"> 
+                                <a href="#" class="link-light">Get Quote</a> 
+                            </li>                             
+                            <li class="mb-3"> 
+                                <a href="#" class="link-light">Enterprise Plan</a> 
+                            </li>                             
+                            <li class="mb-3"> 
+                                <a href="#" class="link-light">Become an Affiliate</a> 
+                            </li>                             
+                            <li class="mb-3"> 
+                                <a href="#" class="link-light">Our Portfolio</a> 
+                            </li>                             
+                        </ul>                         
+                    </div>                     
+                    <div class="col-md-3 col-xl-2 py-3"> 
+                        <h2 class="fw-bold h5 mb-4 text-primary text-uppercase">Services</h2>
+                        <ul class="list-unstyled"> 
+                            <li class="mb-3"> 
+                                <a href="#" class="link-light">Web Design</a> 
+                            </li>                             
+                            <li class="mb-3"> 
+                                <a href="#" class="link-light">Web Development</a> 
+                            </li>                             
+                            <li class="mb-3"> 
+                                <a href="#" class="link-light">WordPress</a> 
+                            </li>                             
+                            <li class="mb-3"> 
+                                <a href="#" class="link-light">Digital Marketing</a> 
+                            </li>                             
+                            <li class="mb-3"> 
+                                <a href="#" class="link-light">Content Writing</a> 
+                            </li>                             
+                        </ul>                         
+                    </div>                     
+                    <div class="col-md-6 col-xl-4 py-3"> 
+                        <h2 class="fw-bold h5 mb-4 text-primary text-uppercase">Other</h2>
+                        <p class="mb-3">Subscribe to our newsletter and get exclusive updates directly in your inbox.</p>
+                        <form class="mb-4"> 
+                            <div class="bg-white border input-group p-1 rounded">
+                                <input type="email" class="border-0 form-control pe-3 ps-3" placeholder="Enter email..." aria-label="Recipient's email" aria-describedby="button-addon2" required>
+                                <button class="btn btn-secondary pb-2 pe-4 ps-4 pt-2 rounded" type="submit" id="button-addon2" aria-label="submit">
+                                    <svg viewBox="0 0 24 24" fill="currentColor" class="d-inline-block" height="16" width="16">
+                                        <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
+                        <h2 class="fw-bold h5 mb-3 text-primary text-uppercase">Get Social</h2>
+                        <div class="d-inline-flex flex-wrap"> 
+                            <a href="#" class="link-light p-1" aria-label="facebook"> <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"> 
+                                    <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/> 
+                                </svg> </a> 
+                            <a href="#" class="link-light p-1" aria-label="twitter"> <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"> 
+                                    <path d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z"/> 
+                                </svg> </a> 
+                            <a href="#" class="link-light p-1" aria-label="instagram"> <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"> 
+                                    <path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/> 
+                                </svg> </a> 
+                            <a href="#" class="link-light p-1" aria-label="linkedin"> <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"> 
+                                    <path d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z"/> 
+                                </svg> </a> 
+                            <a href="#" class="link-light p-1" aria-label="youtube"> <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"> 
+                                    <path d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z"/> 
+                                </svg> </a> 
+                        </div>                         
+                    </div>                     
+                </div>                 
+                <div class="pb-3 pt-3 small"> 
+                    <hr class="mt-0 "> 
+                    <div class="align-items-center row">
+                        <div class="col-md pb-2 pt-2">
+                            <p class="mb-0">&copy; 2012 - 2021. All Rights Reserved - Company Name</p>
+                        </div>
+                        <div class="col-md-auto pb-2 pt-2">
+                            <a href="#" class="link-light">Privacy Policy</a> | 
+                            <a href="#" class="link-light">Terms of Use</a>
+                        </div>
+                    </div>                     
+                </div>                 
+            </div>             
+        </footer>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
